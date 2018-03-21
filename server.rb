@@ -13,7 +13,11 @@ def twitch_url(channel_name, type=:watch)
 end
 
 get '/' do
-  redirect twitch_url('dexbonus', :watch), 302
+  erb :index
+end
+
+post '/' do
+  redirect twitch_url(params[:channel_name], params[:type].to_sym), 302
 end
 
 get '/watch' do

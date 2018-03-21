@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Deathbonus</title>
+	</head>
+	<body>
+		<form action='/' method="post">
+      <div align="center">
+        <div id="form-data">
+          <input type="text" name="channel_name" id="channel_name" value="dexbonus" style="width: 150px;font-size:12pt;text-align: center;">
+          <input type="hidden" name="type" id="type" value="watch">
+        </div>
+        <div id="watch-button" style="margin-top: 3px;">
+          <input type="button" value="watch" onclick="this.form.type.value='watch';this.form.submit()" style="width: 150px; font-size: 12pt; cursor: pointer;">
+        </div>
+        <div id="sub-button" style="margin-top: 3px;">
+          <input type="button" value="subscribe" onclick="this.form.type.value='sub';this.form.submit()" style="width: 150px; font-size: 12pt; cursor: pointer;">
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
