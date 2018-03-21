@@ -1,6 +1,6 @@
 # Deathbon.us Redirecter
 
-Default channel is [Dodgers aka Dexbonus][dodger channel].
+Default channel is [Dodger's aka Dexbonus][dodger channel].
 
 ![dodger][dodger gif]
 
